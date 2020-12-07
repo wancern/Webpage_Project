@@ -9,7 +9,7 @@
 	request.setCharacterEncoding("UTF-8");
 
 	String filename = "";
-	String realFolder = "./resourse/images";		//웹 애플리케이션상의 절대 경로
+	String realFolder = request.getRealPath("/resources/images");		//웹 애플리케이션상의 절대 경로
 	int maxSize = 5 * 1024 * 1024;				//최대 업로드될 파일의 크기 5MB
 	String encType = "utf-8";
 	

@@ -28,7 +28,7 @@
 					Student student = listOfStudents.get(i);
 			%>
 				<div class="col">
-					<img src="C:/upload/<%=student.getFilename() %>" style="width: 100%">
+					<img src="./resources/images/<%=student.getFilename() %>" style="width: 100%">
 					<p style="text-align:center"><%=student.getStudentId()%>  <%=student.getName() %>
 					<p style="text-align:center"><%=student.getMajor() %>
 					<p style="text-align:center"><a href="./studentLogin.jsp?id=<%=student.getStudentId()%>"

@@ -28,7 +28,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-4">
-				<img src="c:/upload/<%=student.getFilename() %>" style="width: 100%">
+				<img src="./resources/images/<%=student.getFilename() %>" style="width: 100%">
 			</div>
 			<div class="col-md-1"></div>
 			<div class="col-md-7">	

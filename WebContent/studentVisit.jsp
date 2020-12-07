@@ -23,7 +23,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4" align="center">
-				<img src="C:/upload/<%=student.getFilename() %>" style="width: 100%">
+				<img src="./resources/images/<%=student.getFilename() %>" style="width: 100%">
 				<h3 class="form-signin-heading"><%=student.getName() %></h3>
 				<h3 class="form-signin-heading"><%=student.getStudentId() %></h3>
 				<%
